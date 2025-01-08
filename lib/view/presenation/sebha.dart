@@ -5,6 +5,6 @@ class Sebha extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text("sebha");
+    return Center(child: const Text("sebha",style: TextStyle(fontSize: 50,color: Colors.redAccent),));
   }
 }

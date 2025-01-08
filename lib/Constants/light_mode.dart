@@ -3,6 +3,13 @@ import 'package:quran/Constants/app_color.dart';
 
 class LightTheme {
   static final ThemeData LightthemeData = ThemeData(
+    navigationBarTheme: NavigationBarThemeData(
+      backgroundColor: AppColor.lightscondaryColor,
+      // indicatorColor: AppColor.lightscondaryColor,
+      labelTextStyle: WidgetStateProperty.all(TextStyle(
+       color: AppColor.LightprimaryColor,
+      ))
+    ),
     brightness: Brightness.light,
     colorScheme: ColorScheme(
         brightness: Brightness.light,
@@ -15,6 +22,6 @@ class LightTheme {
         surface: AppColor.lightthirdColor,
         onSurface: AppColor.lightthirdColor
     ),
-    scaffoldBackgroundColor: Colors.white,
+    // scaffoldBackgroundColor: Colors.white,
   );
 }

@@ -3,6 +3,14 @@ import 'package:quran/Constants/app_color.dart';
 
 class DarkTheme {
   static final ThemeData themeData = ThemeData(
+    navigationBarTheme: NavigationBarThemeData(
+        backgroundColor: AppColor.darkscondaryColor,
+        // indicatorColor: AppColor.lightscondaryColor,
+        labelTextStyle: WidgetStateProperty.all(
+          TextStyle(
+            color: AppColor.darkprimaryColor,
+          ),
+        )),
     colorScheme: ColorScheme(
         brightness: Brightness.dark,
         primary: AppColor.darkprimaryColor,
