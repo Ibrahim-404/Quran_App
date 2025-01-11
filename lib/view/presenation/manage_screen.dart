@@ -6,7 +6,6 @@ import 'package:quran/view/presenation/hadith.dart';
 import 'package:quran/view/presenation/quran.dart';
 import 'package:quran/view/presenation/radio.dart';
 import 'package:quran/view/presenation/sebha.dart';
-
 class ManageScreen extends StatefulWidget {
   const ManageScreen({super.key});
   @override
@@ -25,7 +24,7 @@ class _ManageScreenState extends State<ManageScreen> {
   Widget build(BuildContext context) {
     final List<Widget> bottomNavigationScreens = [
       const RadioScreen(),
-      const Sebha(),
+       Sebha(),
       const Hadith(),
       const Quran(),
     ];
@@ -34,6 +33,7 @@ class _ManageScreenState extends State<ManageScreen> {
         builder: (context, snapshot) {
           return Scaffold(
             bottomNavigationBar: BottomNavigationBar(
+             showUnselectedLabels: false,
               selectedItemColor:Theme.of(context).primaryColor,
               selectedIconTheme: IconThemeData(
                 color: Theme.of(context).primaryColor,
@@ -47,7 +47,6 @@ class _ManageScreenState extends State<ManageScreen> {
                 onTap: (int value) {
                   setState(() {
                     index = value;
-                    print("index:$index");
                     print(value);
                   });
                 },

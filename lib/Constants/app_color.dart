@@ -7,8 +7,8 @@ class AppColor {
   static const Color lighterrorAndMessage = Colors.redAccent;
 
   //theme dark
-  static const Color darkprimaryColor = Color(0xFF242424);
+  static const Color darkprimaryColor = Color(0xFF141A2E);
   static const Color darkscondaryColor = Color(0xFFFACC1D);
-  static const Color darkthirdColor = Color(0xFF141A2E);
+  static const Color darkthirdColor = Colors.white;
   static const Color darkerrorAndMessage = Colors.redAccent;
 }

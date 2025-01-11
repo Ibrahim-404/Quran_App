@@ -34,7 +34,7 @@ class _Quran_SplashScreenState extends State<Quran_SplashScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFf9f9f9),
+      backgroundColor:Theme.of(context).splashColor,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -44,10 +44,10 @@ class _Quran_SplashScreenState extends State<Quran_SplashScreen>
               scale: animation,
               child: Image.asset('assets/picture/quran.png'),
             ),
-            const Text(
+             Text(
               "أقرأ",
               style: TextStyle(
-                  color: Colors.black,
+                  color:Theme.of(context).primaryColor,
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                   fontFamily: 'AmiriQuran'),

@@ -1,8 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:quran/Constants/save_app_state.dart';
+import 'package:quran/manage/dark_and_light_state.dart';
+import 'package:quran/manage/save_app_state.dart';
 import 'package:quran/Constants/dark_mode.dart';
 import 'package:quran/Constants/light_mode.dart';
-import 'package:quran/manage/dark_and_light_state.dart';
 
 class DarkAndLightCubit extends Cubit<DarkAndLightState> {
   DarkAndLightCubit() : super(DarkAndLightInitial());

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:quran/Constants/dark_mode.dart';
 import 'package:quran/Constants/light_mode.dart';
+
 import 'package:quran/manage/dark_and_light_cubit.dart';
 import 'package:quran/manage/dark_and_light_state.dart';
 import 'package:quran/routes/routes_settings.dart';
