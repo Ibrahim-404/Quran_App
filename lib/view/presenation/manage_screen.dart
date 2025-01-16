@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:quran/manage/dark_and_light_cubit.dart';
 import 'package:quran/manage/dark_and_light_state.dart';
 import 'package:quran/view/presenation/hadith.dart';
-import 'package:quran/view/presenation/quran.dart';
+import 'package:quran/view/presenation/quranList.dart';
 import 'package:quran/view/presenation/radio.dart';
 import 'package:quran/view/presenation/sebha.dart';
 class ManageScreen extends StatefulWidget {
@@ -26,7 +26,7 @@ class _ManageScreenState extends State<ManageScreen> {
       const RadioScreen(),
        Sebha(),
       const Hadith(),
-      const Quran(),
+      const QuranList(),
     ];
     return BlocBuilder<DarkAndLightCubit, DarkAndLightState>(
         bloc: context.read<DarkAndLightCubit>(),

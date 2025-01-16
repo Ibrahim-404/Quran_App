@@ -23,6 +23,7 @@ class LightTheme {
     brightness: Brightness.light,
     splashColor: Color(0xFFdcdada),
     colorScheme: ColorScheme(
+      background: Colors.white,
         brightness: Brightness.light,
         primary: AppColor.LightprimaryColor,
         onPrimary: AppColor.LightprimaryColor,

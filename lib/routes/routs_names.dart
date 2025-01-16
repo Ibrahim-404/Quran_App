@@ -1,4 +1,6 @@
 class RoutesNames{
   static const String initialRoute = '/';
-  static const String quran_list = '/ManageScreen';
+  static const String mangeScreen = '/ManageScreen';
+  static const String surahInQuran = '/QuranScreen';
+
 }

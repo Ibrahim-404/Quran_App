@@ -1,4 +1,4 @@
-import 'package:quran/services/models/model_quran_List.dart';
+import 'package:quran/services/models/quran_list%20of%20surah/model_quran_List.dart';
 
 class quranListState {}
 
